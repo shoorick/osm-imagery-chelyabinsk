@@ -1,0 +1,1 @@
+# osm-imagery-chelyabinsk
