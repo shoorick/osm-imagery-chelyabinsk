@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
-print 'var bing = ';
+my ( $var ) = $ARGV[0] =~ /^(\w+)/;
+print "var $var = ";
 while (<>) {
     s/LineString/Polygon/;
     s/("coordinates": \[)/$1\[/;
